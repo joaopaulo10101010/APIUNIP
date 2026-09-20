@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\repositorio\\sensorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\repositorio\\sensorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\repositorio\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\repositorio\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\models\\sensordb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\models\\sensordb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|c:\\users\\joao_\\onedrive\\desktop\\projeto\\apiunip\\apiunip\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CBBEBC-F490-A94C-6962-02B83F28874D}|APIUNIP\\APIUNIP.csproj|solutionrelative:apiunip\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIUNIP\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIUNIP\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-20T18:41:20.148Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Repositorio\\SensorRepositorio.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Repositorio\\SensorRepositorio.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Repositorio\\SensorRepositorio.cs",
+              "RelativeToolTip": "APIUNIP\\Repositorio\\SensorRepositorio.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwHgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T19:03:41.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SensorDB.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Models\\SensorDB.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Models\\SensorDB.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Models\\SensorDB.cs",
+              "RelativeToolTip": "APIUNIP\\Models\\SensorDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T19:01:28.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Program.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Program.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Program.cs",
+              "RelativeToolTip": "APIUNIP\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:59:57.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Repositorio\\Conexao.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Repositorio\\Conexao.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Repositorio\\Conexao.cs",
+              "RelativeToolTip": "APIUNIP\\Repositorio\\Conexao.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:54:45.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\appsettings.json",
+              "RelativeDocumentMoniker": "APIUNIP\\appsettings.json",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\appsettings.json",
+              "RelativeToolTip": "APIUNIP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-20T18:50:30.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "APIUNIP\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:44:49.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "APIUNIP\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\joao_\\OneDrive\\Desktop\\PROJETO\\APIUNIP\\APIUNIP\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "APIUNIP\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:43:09.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
