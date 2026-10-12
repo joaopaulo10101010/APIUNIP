@@ -1,0 +1,6 @@
+@APIUNIP_HostAddress = http://localhost:5261
+
+GET {{APIUNIP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,86 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: My Collection
+meta:
+  id: wrk_6ebd749839e9472c8bd067570e07978a
+  created: 1789938460914
+  modified: 1789938460914
+  description: ""
+collection:
+  - url: http://apiunip-env.eba-4pgwkkbn.us-east-2.elasticbeanstalk.com/api/sensor/lista?sensor=LDR
+    name: ListaComSensores
+    meta:
+      id: req_759a8711f18a4988bc0f50b9a472a227
+      created: 1789938472898
+      modified: 1789941356907
+      isPrivate: false
+      description: ""
+      sortKey: -1789938472898
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://apiunip-env.eba-4pgwkkbn.us-east-2.elasticbeanstalk.com/api/sensor
+    name: Modelo
+    meta:
+      id: req_ee0f3946afbb46c5babcd3a12a3ac97d
+      created: 1789938814160
+      modified: 1789941461070
+      isPrivate: false
+      description: ""
+      sortKey: -1789938814160
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://apiunip-env.eba-4pgwkkbn.us-east-2.elasticbeanstalk.com/api/sensor/insert
+    name: Insert
+    meta:
+      id: req_8990fa1aa5be444c943004d2f5fac84b
+      created: 1789939226603
+      modified: 1789941479042
+      isPrivate: false
+      description: ""
+      sortKey: -1789939226603
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+            "Sensor": "LDR",
+            "VALORCOLETADO": 6000
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_ccd41c8a6f9d900bbb4a63be7d89283297bd8895
+    created: 1789938460917
+    modified: 1789938460917
+environments:
+  name: Base Environment
+  meta:
+    id: env_ccd41c8a6f9d900bbb4a63be7d89283297bd8895
+    created: 1789938460916
+    modified: 1789938460916
+    isPrivate: false
