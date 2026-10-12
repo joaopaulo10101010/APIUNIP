@@ -9,32 +9,39 @@ namespace APIUNIP.Repositorio
         public readonly string[] _sensores = { "LDR", "MQ135", "BMP280", "DHT22" };
         public SensorRepositorio()
         {
-            
+
 
         }
 
         public void Insert(SensorDB sensor)
         {
+            Conexao con = new Conexao();
+
             try
             {
 
                 if (_sensores.Contains(sensor.Sensor))
                 {
-                    Conexao con = new Conexao();
+
 
                     MySqlCommand command = con.Comando();
 
-                    string StrSql = $"INSERT INTO TB_{sensor.Sensor}(LDR_VALORCOLETADO,LDR_VALORPROCESSADO,LDR_STATUS) values ({sensor.VALORCOLETADO},{ProcessarSensor(sensor.Sensor,sensor.VALORCOLETADO).ToString().Replace(",",".")},'{sensor.STATUS}')";
+                    string StrSql = $"INSERT INTO TB_{sensor.Sensor}({sensor.Sensor}_VALORCOLETADO,{sensor.Sensor}_VALORPROCESSADO,{sensor.Sensor}_STATUS) values ({sensor.VALORCOLETADO},{ProcessarSensor(sensor.Sensor, sensor.VALORCOLETADO).ToString().Replace(",", ".")},'{sensor.STATUS}')";
 
                     command.CommandText = StrSql;
 
                     command.ExecuteNonQuery();
+
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
+            }
+            finally
+            {
+                con.Close();
             }
         }
 
@@ -42,13 +49,14 @@ namespace APIUNIP.Repositorio
         {
             List<SensorDB> sensores = new List<SensorDB>();
 
+            Conexao con = new Conexao();
+
             try
             {
                 string sensor = entrada.ToUpper();
 
                 if (_sensores.Contains(sensor))
                 {
-                    Conexao con = new Conexao();
 
                     MySqlCommand command = con.Comando();
 
@@ -59,7 +67,7 @@ namespace APIUNIP.Repositorio
                                             {sensor}_VALORCOLETADO AS VALORCOLETADO,
                                             {sensor}_VALORPROCESSADO AS VALORPROCESSADO,
                                             {sensor}_STATUS AS STATUS
-                                        FROM TB_{sensor};
+                                        FROM TB_{sensor} ORDER BY {sensor}_CODIGO desc LIMIT 50;
                                     ";
 
                     command.CommandText = StrSql;
@@ -78,11 +86,16 @@ namespace APIUNIP.Repositorio
 
                         sensores.Add(sensorDB);
                     }
+
                 }
             }
             catch (Exception ex)
             {
 
+            }
+            finally
+            {
+                con.Close();
             }
 
             return sensores;
@@ -92,13 +105,15 @@ namespace APIUNIP.Repositorio
         {
             List<SensorDB> sensores = new List<SensorDB>();
 
+            Conexao con = new Conexao();
+
             try
             {
                 string sensor = entrada.ToUpper();
 
                 if (_sensores.Contains(sensor))
                 {
-                    Conexao con = new Conexao();
+
 
                     MySqlCommand command = con.Comando();
 
@@ -134,6 +149,10 @@ namespace APIUNIP.Repositorio
             catch (Exception ex)
             {
 
+            }
+            finally
+            {
+                con.Close();
             }
 
             return sensores;

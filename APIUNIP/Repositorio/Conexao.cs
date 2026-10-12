@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using APIUNIP.Models;
+using MySql.Data.MySqlClient;
 using System.Data.Common;
 
 namespace APIUNIP.Repositorio
@@ -12,6 +13,7 @@ namespace APIUNIP.Repositorio
         {
             _connection = new MySqlConnection(_connectionString);
             _connection.Open();
+            AtualizarFuso();
         }
 
         public void Close()
@@ -22,6 +24,25 @@ namespace APIUNIP.Repositorio
         public MySqlCommand Comando()
         {
             return _connection.CreateCommand();
+        }
+        public void AtualizarFuso()
+        {
+            try
+            {
+
+                MySqlCommand command = Comando();
+
+                string StrSql = $"SET time_zone = '-03:00';";
+
+                command.CommandText = StrSql;
+
+                command.ExecuteNonQuery();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
